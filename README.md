@@ -25,6 +25,8 @@ src/main/java/pages/classes- these hold methods pertaining to the relevant scree
 
 src/main/java/support/base class- this as @Before and @After methods 
 
+src/main/java/support/JsonFile- holds the cars.json file for the test data
+
 src/main/java/support/ElementUtils- have common reusable customised selenium methods
 
 src/main/java/support/WebModel- this hold return types methods for each class, facilitates chaining of the methods
@@ -40,3 +42,4 @@ src/test/java/Resources/config/properties- holds properties for browser and URL
 output- folder generates a report.html of the result. files refreshes for each test execution.  
 
 screenshots-hold .png files of the screen shot upon scenario failure
+
