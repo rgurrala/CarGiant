@@ -16,6 +16,8 @@ set up SDK under intellij/file/project structure/platform settings/SDKs
 
 -explanations have been provided with in the classes in the form of comments
 
+-currently the test has been configured to execute on chrome browser. 
+
 
                                                   project structure
                                                   
