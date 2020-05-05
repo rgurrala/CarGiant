@@ -18,6 +18,8 @@ set up SDK under intellij/file/project structure/platform settings/SDKs
 
 -currently the test has been configured to execute on chrome browser. 
 
+-note- valid user name and password for cargiant login has to be provided in the config.properties file
+
 
                                                   project structure
                                                   
