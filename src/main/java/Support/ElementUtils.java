@@ -54,13 +54,6 @@ public class ElementUtils {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver(option);
                     break;
-                case "headless":
-                    ChromeOptions options = new ChromeOptions();
-                    WebDriverManager.chromedriver().setup();
-                    options.addArguments("--headless");
-                    driver = new ChromeDriver(options);
-                    break;
-
             }
 
             return driver;

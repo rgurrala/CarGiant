@@ -6,14 +6,16 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
+import java.io.IOException;
+
 public class Scenario_Stepdefs {
 
     WebModel webModel = new WebModel();
 
     @Given("^the user has logged in to the carGiant portal$")
-    public void theUserHasLoggedInToTheCarGiantPortal() {
+    public void theUserHasLoggedInToTheCarGiantPortal() throws IOException {
         //plase provide a valid username and password
-        webModel.getLoginPage().login("", "");
+        webModel.getLoginPage().login(webModel.getUtils().getProperty("userName"), webModel.getUtils().getProperty("password"));
         webModel.getLoginPage().assertMyGarage();
         //this method clears previous wish list if any
         webModel.getLoginPage().clearWishList();
