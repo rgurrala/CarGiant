@@ -1,12 +1,19 @@
                                               steps to execute the test
                                               
--install an IDE (preferable intellij, as the project has been developed on it)-
--set up java and maven environment variables-
--install git and set the path under intellij/file/settings/version control/git-
--set up SDK under intellij/file/project structure/project settings/project-
-set up SDK under intellij/file/project structure/platform settings/SDKs-
--install cucumber-java plug in-
--check out the project from the git hub repo-
+-install an IDE (preferable intellij, as the project has been developed on it)
+
+-set up java and maven environment variables
+
+-install git and set the path under intellij/file/settings/version control/git
+
+-set up SDK under intellij/file/project structure/project settings/project
+
+set up SDK under intellij/file/project structure/platform settings/SDKs
+
+-install cucumber-java plug in
+
+-check out the project from the git hub repo
+
 
                                                   project structure
                                                   
