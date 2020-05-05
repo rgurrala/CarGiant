@@ -14,6 +14,8 @@ set up SDK under intellij/file/project structure/platform settings/SDKs
 
 -check out the project from the git hub repo
 
+-explanations have been provided with in the classes in the form of comments
+
 
                                                   project structure
                                                   
